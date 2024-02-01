@@ -1,0 +1,2 @@
+# Ec2_instance_fastapi
+ec2_instance_fastapi
