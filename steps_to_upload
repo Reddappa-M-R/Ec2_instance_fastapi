@@ -1,0 +1,7 @@
+1. sudo apt-get update
+2. sudo apt install -y python3-pip niginx
+3. sudo vim /etc/nginx/sites-enabled/fastapi_nginx #ctr i # server{listen 80: server_name ip+address;location / {proxy_pass http://127.0.0.1:8000;}} esc :wq
+4. sudo service nginx restart
+5. git clone https://
+6. cd folder
+7. uvicorn main:app --reload
